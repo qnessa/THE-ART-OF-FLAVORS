@@ -1,0 +1,1 @@
+web: gunicorn the_art_of_flavors.wsgi

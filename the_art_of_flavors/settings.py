@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tl9#3576hr35x5w292o4g%3ba*p5934e)im&nw(t7)vmgns-k5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-qnessa-theartofflavors-tq6tl1is9x6.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['8000-qnessa-theartofflavors-tq6tl1is9x6.ws-eu108.gitpod.io','.herokuapp.com']
 
 
 # Application definition
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'theartofflavors.urls'
+ROOT_URLCONF = 'the_art_of_flavors.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'theartofflavors.wsgi.application'
+WSGI_APPLICATION = 'the_art_of_flavors.wsgi.application'
 
 
 # Database
