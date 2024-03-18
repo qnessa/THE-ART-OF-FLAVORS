@@ -37,7 +37,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link {% if request.path == home_url %}active{% endif %}" aria-current="page"
-                            href="#">Home</a>
+                            href="{% url 'home' %}">Home</a>
                     </li>
 
                 </ul>
@@ -58,7 +58,10 @@
 
     <!-- Footer -->
     <footer class="footer mt-auto py-3 dark-bg">
-        <p class="m-0 text-center text-white">Made by Vanessa Ilombe</p>
+        <p class="m-0 text-center text-white">
+            {% block copyright %}
+               Made by Vanessa Ilombe 
+            {% endblock copyright %}</p>
         <p class="m-0 text-center text-white">Follow me: <a href="https://github.com/qnessa" target="_blank" class="github-link-text">
             <i class="fab fa-github ms-3 github-link"></i>
             <span class="small-spacer"></span>qnessa</a>

@@ -1,7 +1,6 @@
-
 {% extends "base.html" %}
-
 {% block content %}
+
 
 <!-- index.html content starts here -->
 <div class="container-fluid">
@@ -21,8 +20,10 @@
                             </div>
                             <a href="#" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
+                                <p class="card-text">{{ post.excerpt | safe }}</p>
+                               
                             </a>
-
+                        
                             <hr />
                             <p class="card-text text-muted h6">{{ post.created_on}}
                             </p>
@@ -47,7 +48,9 @@
         </ul>
     </nav>
     {% endif %}
+    
 </div>
 
 <!-- index.html content ends here -->
 {% endblock %}
+
