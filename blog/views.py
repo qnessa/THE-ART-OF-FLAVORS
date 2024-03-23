@@ -42,7 +42,7 @@ def post_detail(request, slug):
             comment.save()
         messages.add_message(
             request, messages.SUCCESS,
-            'Thank you, your comment is submitted and awaiting approval'
+            'Thank you, your comment is submitted and awaiting approval' 
     )
     comment_form = CommentForm()
 

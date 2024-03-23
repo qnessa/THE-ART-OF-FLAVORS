@@ -26,7 +26,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-qnessa-theartofflavors-tq6tl1is9x6.ws-eu110.gitpod.io','.herokuapp.com']
 
@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'django_summernote',
     'blog',
     'about',
+    #this the custom model added in seetting.py
+    'contactform',
     
 ]
 
