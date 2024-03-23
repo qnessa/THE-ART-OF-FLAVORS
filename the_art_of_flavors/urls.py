@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
     path("", include("blog.urls"), name="blog-urls"),
+    #this is my custom model urls in the project urls
     path("contactform/", include("contactform.urls"), name="contactform-urls"),
    
    

@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Contactform
 from .forms import ContactForm
 from django.http import HttpResponse
-#Custom model form start hear
+#Custom model views start here
 
 def contactform(request):
     if request.method == 'POST':
