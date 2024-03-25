@@ -2,10 +2,10 @@
 ### Full-Stack capstone project. Created during the Code Institute Full-Stack developer bootcamp.  
 
 
-![Images of the art of flavors website](documentation/design-images/responsive-views-01.png)
+![Images of the art of flavors website](documentation/design-images/responsive-views-1.png)
 
 
-![Images of the art of flavors website](documentation/design-images/responsive-views-02.png)
+![Images of the art of flavors website](documentation/design-images/responsive-views-2.png)
 
 ## Overview
 
@@ -129,7 +129,7 @@ To follow best practice, wireframes were developed for mobile, tablet, and deskt
 ![mobile-tablet-navbar](documentation/feature-images/mobile%20navbar.png)
 
 
-![mobile-tablet-navbar-collapsed](documentation/feature-images/mobile%20navbar-collapsed.png)
+![mobile-tablet-navbar-collapsed](documentation/feature-images/mobile%20navbar-collapsed%201.png)
 
 **Contact form**
 
@@ -147,12 +147,12 @@ To follow best practice, wireframes were developed for mobile, tablet, and deskt
 
  **Home**
 
-![desktop-register](documentation/feature-images/home%20page.png)
+![desktop-register](documentation/feature-images/home%20page%201.png)
 
   **About**
 
 
-![desktop-register](documentation//feature-images/about.png)
+![desktop-register](documentation/feature-images/about.png)
 
 ### Future Features
 
