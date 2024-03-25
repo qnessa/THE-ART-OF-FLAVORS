@@ -183,6 +183,7 @@ To follow best practice, wireframes were developed for mobile, tablet, and deskt
 - [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
 - [Cloudinary](https://cloudinary.com) used for online static file storage.
+- [W3C] (https://validator.w3.org/#validate_by_uri) Used for validation.
 
 ## Database Design
 
