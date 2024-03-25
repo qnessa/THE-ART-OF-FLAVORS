@@ -412,6 +412,7 @@ You can fork this repository by using the following steps:
 Chatgpt was used to enhance knowledge within this project specifically the blog contents.
 -[Johan-Hennius] (https://github.com/Johan-Hennius/kit-wagstaff-tattoo) 
 This project was used to improve my README.md content.
+-[istock photo](https://www.istockphoto.com/search/2/image) Images used where taken from istock photo.
 ### Content
 | Source | Location | Notes |
 | --- | --- | --- |
