@@ -12,5 +12,22 @@
 {{ about.content | safe }}
         </div>
     </div>
+<<<<<<< HEAD
+=======
+    <div class="row">
+        <div class="col text-right">
+          <!-- Updated on field goes in here -->
+
+          <form method="post">
+            {{ collaborate_form | crispy }}
+            {% csrf_token %}
+            <button class="btn btn-secondary"
+              type="submit">Submit</button>
+          </form>
+
+          <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+        </div>
+      </div>    
+>>>>>>> parent of c8a3bb9 (Added the title and the paragraph on the contact form)
 </div>
 {% endblock content %}
