@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from .views import contact_view, thank_you_view
 
 
 urlpatterns = [
@@ -25,7 +26,7 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
     path("", include("blog.urls"), name="blog-urls"),
     #this is my custom model urls in the project urls
-    path("contactform/", include("contactform.urls"), name="contactform-urls"),
+   
    
    
 ]

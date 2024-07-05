@@ -1,7 +1,6 @@
 {% load static %}
 {% url 'home' as home_url %}
 {% url 'about' as about_urls %}
-{%url 'contactform' as contactform_urls %}
 {% url 'account_login' as login_url %}
 {% url 'account_signup' as signup_url %}
 {% url 'account_logout' as logout_url %}
@@ -26,6 +25,7 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
 </head>
 
 <body class="d-flex flex-column h-100 main-bg">
@@ -48,10 +48,6 @@
                     <li class="nav-item">
                         <a class="nav-link {% if request.path == about_url %}active{% endif %}" aria-current="page"
                             href="{% url 'about' %}">About</a>
-
-                    <li class="nav-item">
-                    <a class="nav-link {% if request.path == contactform_url %}active{% endif %}" aria-current="page"
-                    href="{% url 'contactform' %}">Contact Us</a>
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
