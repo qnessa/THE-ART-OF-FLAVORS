@@ -52,8 +52,8 @@ INSTALLED_APPS = [
     'cloudinary',
     'blog',
     'about',
-    #this the custom model added in setting.py
-
+    #this the custom model added in seetting.py
+    'contactform',
     
 ]
 

@@ -1,10 +1,10 @@
+from .models import ContactRequest 
 from django import forms
-from .models import Contactform
 
 #Custom model form start here
 
 
 class ContactForm(forms.ModelForm):
     class Meta:
-        model = Contactform
+        model = ContactRequest
         fields = ['name', 'email', 'subject', 'message']

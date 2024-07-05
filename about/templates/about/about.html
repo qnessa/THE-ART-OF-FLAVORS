@@ -12,8 +12,14 @@
 {{ about.content | safe }}
         </div>
     </div>
+<<<<<<< HEAD
 </div>
 div class="row">
+=======
+<<<<<<< HEAD
+=======
+    <div class="row">
+>>>>>>> ca3ca6872447a239d1ed3ea853bddcf5b8b33e63
         <div class="col text-right">
           <!-- Updated on field goes in here -->
           <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
@@ -32,8 +38,20 @@ div class="row">
               type="submit">Submit</button>
           </form>
 
+          <form method="post">
+            {{ collaborate_form | crispy }}
+            {% csrf_token %}
+            <button class="btn btn-secondary"
+              type="submit">Submit</button>
+          </form>
+
           <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
         </div>
       </div>    
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of c8a3bb9 (Added the title and the paragraph on the contact form)
+</div>
+>>>>>>> ca3ca6872447a239d1ed3ea853bddcf5b8b33e63
 {% endblock content %}
