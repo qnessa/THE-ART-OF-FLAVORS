@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 from pathlib import Path
 import os
 import sys
-import dj_database_url
+import dj-database-url
 if os.path.isfile('env.py'):
     import env
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -53,8 +53,7 @@ INSTALLED_APPS = [
     'blog',
     'about',
     #this the custom model added in seetting.py
-    'contactform',
-
+    
     
 ]
 

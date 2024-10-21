@@ -12,8 +12,8 @@ class AboutAdmin(SummernoteModelAdmin):
     search_fields = ['title', 'content']
     list_filter = ['updated_on']
 
-@admin.register(ContactRequest)
-class ContactRequestAdmin(admin.ModelAdmin):
+@admin.register(CollaborateRequest)
+class CollaborateRequestAdmin(admin.ModelAdmin):
 
-    list_display = ('message', 'read')
-    
+    list_display = ('message', 'read',)
+
